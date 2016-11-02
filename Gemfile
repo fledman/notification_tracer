@@ -1,4 +1,4 @@
 source 'https://rubygems.org'
 
-# Specify your gem's dependencies in active_record_query_tracer.gemspec
+# Specify your gem's dependencies in notification_tracer.gemspec
 gemspec

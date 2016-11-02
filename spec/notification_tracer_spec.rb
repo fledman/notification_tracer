@@ -1,8 +1,8 @@
 require 'spec_helper'
 
-describe ActiveRecordQueryTracer do
+describe NotificationTracer do
   it 'has a version number' do
-    expect(ActiveRecordQueryTracer::VERSION).not_to be nil
+    expect(NotificationTracer::VERSION).not_to be nil
   end
 
   it 'does something useful' do
