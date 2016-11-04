@@ -8,10 +8,8 @@ require "notification_tracer/sql_formatter"
 module NotificationTracer
   extend self
 
-  def rails_sql(matcher:, logger:, prefix: nil, **pass)
-    RailsSql.new(
-      formatter: SqlFormatter.new(prefix: prefix),
-        matcher: matcher, logger: logger, **pass)
+  def rails_sql(prefix: nil, **pass)
+    RailsSql.new(formatter: SqlFormatter.new(prefix: prefix), **pass)
   end
 
 end
