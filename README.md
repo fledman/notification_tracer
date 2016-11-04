@@ -1,6 +1,6 @@
 # NotificationTracer
 
-A convenient way to process ActiveSupport Notifications together with the call stack.
+A convenient way to process ActiveSupport notifications together with the call stack.
 
 ## Installation
 
@@ -8,7 +8,11 @@ Add `gem 'notification_tracer'` to your Gemfile.
 
 ## Usage
 
-TODO: Write usage instructions here
+### General Use - `NotificationTracer::Subscriber`
+
+
+### Rails Specific - `NotificationTracer::RailsSql`
+
 
 ## Development
 
