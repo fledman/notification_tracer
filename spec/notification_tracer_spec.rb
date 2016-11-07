@@ -5,7 +5,7 @@ describe NotificationTracer do
     expect(NotificationTracer::VERSION).not_to be nil
   end
 
-  it 'does something useful' do
-    expect(false).to eq(true)
+  describe '.rails_sql' do
+    #
   end
 end
