@@ -10,6 +10,7 @@ Gem::Specification.new do |spec|
   spec.email         = ["dbfeldman@gmail.com"]
 
   spec.summary       = "trace ActiveSupport notifications"
+  spec.description   = "A convenient way to process ActiveSupport notifications together with the call stack."
   spec.homepage      = "https://github.com/fledman/notification_tracer"
   spec.license       = "MIT"
 
