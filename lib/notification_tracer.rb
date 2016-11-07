@@ -1,4 +1,5 @@
 require "notification_tracer/version"
+require "notification_tracer/errors"
 require "active_support/notifications"
 require "active_support/backtrace_cleaner"
 require "notification_tracer/subscriber"
